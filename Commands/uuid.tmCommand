@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+
+uuidgen | tr A-Z a-z | perl -pe 'chomp if eof'
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>uuid</string>
+	<key>outputCaret</key>
+	<string>selectOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
+	<key>semanticClass</key>
+	<string>source</string>
+	<key>tabTrigger</key>
+	<string>uuid</string>
+	<key>uuid</key>
+	<string>BE504F8C-44B9-4847-8863-7F0403208FD6</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
