@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>qri@pnvhf.anzr</string>
+	<key>contactName</key>
+	<string>Caius Durling</string>
+	<key>description</key>
+	<string>Bundle containing Caius' Bits (+ pieces&amp;hellip;)
+</string>
+	<key>name</key>
+	<string>Caius' Bits</string>
+	<key>uuid</key>
+	<string>6F5BB878-15F3-47B5-8370-07F3C47649B6</string>
+</dict>
+</plist>
