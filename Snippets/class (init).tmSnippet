@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># $2
+#
+class $1 {
+
+  include $1::install, $1::config, $1::service
+
+  Class['$1::install'] -&gt; Class['$1::config'] ~&gt; Class['$1::service']
+
+}
+</string>
+	<key>name</key>
+	<string>class (init)</string>
+	<key>scope</key>
+	<string>source.puppet</string>
+	<key>tabTrigger</key>
+	<string>class</string>
+	<key>uuid</key>
+	<string>36E7A518-B705-45D2-B83F-3B7972498A96</string>
+</dict>
+</plist>
