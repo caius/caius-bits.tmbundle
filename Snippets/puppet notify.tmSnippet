@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>notify { "$1": }
+</string>
+	<key>name</key>
+	<string>puppet notify</string>
+	<key>tabTrigger</key>
+	<string>notify</string>
+	<key>uuid</key>
+	<string>4E5FD6FD-7431-4ADE-8E8D-D7E2888ED250</string>
+</dict>
+</plist>
