@@ -8,6 +8,10 @@ Caius' Bits (& pieces…) for TextMate shenannigans.
 
 ## License
 
+`Preferences/Comments.tmPreferences` and `Syntaxes/nix.tmLanguage` have a separate license, see <https://github.com/wmertens/sublime-nix/blob/master/LICENSE>
+
+Everything else:
+
     The MIT License (MIT)
 
     Copyright (c) 2017 Caius Durling
